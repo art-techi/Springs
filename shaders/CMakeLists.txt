@@ -1,0 +1,11 @@
+set(ASSIGNMENT_SHADER_LIST
+    "${ASSIGNMENT_SHADER_ROOT}/Node.vs.glsl"
+    "${ASSIGNMENT_SHADER_ROOT}/Node.fs.glsl"
+    "${ASSIGNMENT_SHADER_ROOT}/TensorPatch.vs.glsl"
+    "${ASSIGNMENT_SHADER_ROOT}/TensorPatch.tcs.glsl"
+    "${ASSIGNMENT_SHADER_ROOT}/TensorPatch.tes.glsl"
+    "${ASSIGNMENT_SHADER_ROOT}/TensorPatch.fs.glsl"
+    "${ASSIGNMENT_SHADER_ROOT}/TensorControl.vs.glsl"
+    "${ASSIGNMENT_SHADER_ROOT}/TensorControl.fs.glsl"
+    "${ASSIGNMENT_SHADER_ROOT}/UniformMatrices.glsl"
+    PARENT_SCOPE)

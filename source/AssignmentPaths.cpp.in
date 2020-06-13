@@ -1,0 +1,9 @@
+#include "AssignmentPaths.hpp"
+
+namespace assignment1
+{
+    std::string getShaderDirectory()
+    {
+        return "@ASSIGNMENT_SHADER_ROOT@/";
+    }
+}
